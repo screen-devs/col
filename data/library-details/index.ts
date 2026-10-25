@@ -95,6 +95,7 @@ import canvas_ui from "./canvas-ui.ts";
 import loading_dev from "./loading-dev.ts";
 import hextaui from "./hextaui.ts";
 import gradients_sh from "./gradients-sh.ts";
+import componentry from "./componentry.ts";
 
 export type { LibraryDetails };
 
@@ -202,4 +203,5 @@ export const libraryDetails: Record<string, LibraryDetails> = {
   "loading-dev": loading_dev,
   "hextaui": hextaui,
   "gradients-sh": gradients_sh,
+  "componentry": componentry,
 };

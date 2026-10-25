@@ -1113,6 +1113,18 @@ export const libraries: Library[] = [
     useCases: ["Landing Pages", "Marketing Sites", "Micro-interactions", "Creative & Experimental"],
     tags: ["animated gradients", "webgl", "webgpu", "backgrounds", "shadcn registry"],
   },
+  {
+    name: "Componentry",
+    slug: "componentry",
+    addedAt: "2026-10-25T00:46:05-04:00",
+    description:
+      "Animated React components — text effects, WebGL hero backgrounds, image effects, and interactive pieces — installed as editable source from the @componentry shadcn registry.",
+    url: "https://componentry.dev",
+    category: "Animation & Motion",
+    stacks: ["React", "Tailwind CSS", "TypeScript"],
+    useCases: ["Landing Pages", "Marketing Sites", "Micro-interactions", "Creative & Experimental"],
+    tags: ["text animations", "webgl", "framer motion", "hero background", "shadcn registry", "copy paste"],
+  },
 ];
 
 /** Looks up a library by slug, throwing so a stale hard-coded slug fails the build instead of rendering a broken link. */
