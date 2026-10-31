@@ -85,7 +85,7 @@ export const libraryPreviews: Record<string, LibraryPreview> = {
   "prompt-motion": { src: "https://prompt-motion.com/opengraph-image.png", width: 1200, height: 630 },
   "evil-buttons": { src: "https://www.evilbuttons.com/og-image.png", width: 1536, height: 1024 },
   "drawably": { src: "https://opengraph.githubassets.com/1/danielwh2/drawably", width: 1200, height: 600 },
-  "appllama": { src: "https://appllama.io/og.png", width: 1200, height: 630 },
+  "appllama": { src: "https://appllama.io/branding/appllama-logo.webp", width: 2313, height: 500 },
   "amicons": { src: "https://amicons.design/og-image.png", width: 2400, height: 1350 },
   "lucide-animated": { src: "https://lucide-animated.com/og.png", width: 1200, height: 630 },
   "lordicon": { src: "https://media.lordicon.com/assets/pictures/lordicon.gif", width: 1200, height: 630 },
