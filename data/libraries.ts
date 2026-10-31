@@ -1113,6 +1113,18 @@ export const libraries: Library[] = [
     useCases: ["Landing Pages", "Marketing Sites", "Micro-interactions", "Creative & Experimental"],
     tags: ["animated gradients", "webgl", "webgpu", "backgrounds", "shadcn registry"],
   },
+  {
+    name: "dithercn",
+    slug: "dithercn",
+    addedAt: "2026-10-30T21:05:00-04:00",
+    description:
+      "A dither engine and agent skill for shadcn projects that lets a coding agent build dithered backgrounds, charts, and interface pieces in your theme, installed through the shadcn CLI.",
+    url: "https://dithercn.dev",
+    category: "Animation & Motion",
+    stacks: ["React", "Next.js", "Tailwind CSS", "TypeScript"],
+    useCases: ["Landing Pages", "Dashboards", "Data Visualization", "Creative & Experimental"],
+    tags: ["bayer", "halftone", "ordered dither", "glsl", "shader", "shadcn registry", "agent skill"],
+  },
 ];
 
 /** Looks up a library by slug, throwing so a stale hard-coded slug fails the build instead of rendering a broken link. */
